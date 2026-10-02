@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burak Efe Öztürk – Apps</title>
+<style>
+  :root { --bg: #F8F9FC; --card: #FFFFFF; --text: #1A1C1E; --muted: #43474E; --line: #D5D8DF; --accent: #0061A4; --navy: #1C2230; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111318; --card: #1D2024; --text: #E2E2E6; --muted: #C3C7CF; --line: #33363B; --accent: #9ECAFF; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 16px 48px; }
+  h1 { font-size: 26px; margin: 0; }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 24px; margin-top: 24px; }
+  .app { display: flex; gap: 16px; align-items: center; }
+  .logo { width: 64px; height: 64px; border-radius: 18px; background: var(--navy); display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 12px; flex-shrink: 0; }
+  .logo span { border-radius: 6px; }
+  h2 { font-size: 22px; margin: 0; }
+  .links { display: flex; flex-direction: column; margin-top: 16px; border-top: 1px solid var(--line); }
+  .links a { display: flex; justify-content: space-between; padding: 14px 4px; border-bottom: 1px solid var(--line); color: var(--text); text-decoration: none; }
+  .links a span:last-child { color: var(--accent); }
+  .coffee { display: flex; align-items: center; gap: 16px; text-decoration: none; color: var(--text); }
+  .cup { width: 48px; height: 48px; border-radius: 24px; background: #FFDD00; color: #1A1C1E; display: flex; align-items: center; justify-content: center; font-size: 24px; flex-shrink: 0; }
+  .coffee strong { display: block; }
+  footer { text-align: center; margin-top: 32px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Burak Efe Öztürk</h1>
+  <div class="muted">Android apps · Android uygulamaları</div>
+
+  <section class="card">
+    <div class="app">
+      <div class="logo" aria-hidden="true">
+        <span style="background:#1E88E5"></span><span style="background:#7E57C2"></span>
+        <span style="background:#43A047"></span><span style="background:#FFB300"></span>
+      </div>
+      <div>
+        <h2>CloCa CalNot</h2>
+        <div class="muted">Clock, Calendar, Calculator and Notes in one app.<br>Saat, Takvim, Hesap Makinesi ve Notlar tek bir uygulamada.</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="CloCa_CalNot/privacy-policy.html"><span>Privacy policy · Gizlilik politikası</span><span>→</span></a>
+      <a href="mailto:burakefeozturkk@hotmail.com"><span>Contact · İletişim</span><span>burakefeozturkk@hotmail.com</span></a>
+    </div>
+  </section>
+
+  <section class="card">
+    <a class="coffee" href="https://buymeacoffee.com/burock">
+      <div class="cup" aria-hidden="true">☕</div>
+      <div>
+        <strong>Buy me a coffee · Bana bir kahve ısmarla</strong>
+        <span class="muted">Enjoying my apps? Support their development.<br>Uygulamalarımı beğendiyseniz geliştirilmelerine destek olun.</span>
+      </div>
+    </a>
+  </section>
+
+  <footer class="muted">© 2026 Burak Efe Öztürk</footer>
+</main>
+</body>
+</html>
